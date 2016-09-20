@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Quickcopy Livestreamer",
+	"description": "Context menu option to copy Livestreamer command by right-clicking link",
+	"version": "1.0",
+
+	"permissions": [
+		"contextMenus"
+	],
+
+	"background": { 
+		"scripts": ["script.js"]
+	}
+}
